@@ -15,7 +15,7 @@ def scoregrade():
                     raise ValueError
 
         except ValueError:
-            print('enter valid data')
+            print('enter a valid score')
             continue
         else:
             average = sum(student.score) / len(student.score)
